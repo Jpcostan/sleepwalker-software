@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       <Homepage />
-      <Contact />
+        <div id="contact">
+          <Contact />
+        </div>
+      
     </>
   );
 }

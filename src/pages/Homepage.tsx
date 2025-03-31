@@ -11,12 +11,18 @@ const Homepage: React.FC = () => {
           Smart tools built in the shadows. We craft powerful automation and analytics tools for teams who work like nightfall — quiet, focused, unstoppable.
         </p>
         <div className="flex justify-center gap-4">
-          <button className="px-6 py-3 bg-white text-black rounded-xl font-semibold shadow-md hover:bg-gray-200 transition">
+          {/* <button className="px-6 py-3 bg-white text-black rounded-xl font-semibold shadow-md hover:bg-gray-200 transition">
             Learn More
-          </button>
-          <button className="px-6 py-3 border border-white text-white rounded-xl font-semibold hover:bg-white hover:text-black transition">
-            Contact Us
-          </button>
+          </button> */}
+          <button
+            onClick={() => {
+              const el = document.getElementById('contact');
+              el?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="px-6 py-3 border border-white text-white rounded-xl font-semibold hover:bg-white hover:text-black transition"
+          >
+          Contact Us
+        </button>
         </div>
       </div>
     </div>
