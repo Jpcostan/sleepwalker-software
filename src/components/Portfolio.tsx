@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     title: 'Rent Scanner',
     description: 'Python automation software for scanning physical state goverment rent record data into Excel files.',
-    image: '/images/RentScanner.pngclear',
+    image: '/images/RentScanner.png',
   },
   {
     title: 'G434 (Gaea)',
