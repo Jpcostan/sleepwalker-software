@@ -1,9 +1,14 @@
-import './App.css'
-import Homepage from './pages/Homepage'
+import './App.css';
+import Homepage from './pages/Homepage';
+import Contact from './components/Contact';
 
 function App() {
-
-  return <Homepage />;
+  return (
+    <>
+      <Homepage />
+      <Contact />
+    </>
+  );
 }
 
-export default App
+export default App;
