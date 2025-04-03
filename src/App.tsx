@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-[1440px] mx-auto px-6">
         <Homepage />
         <Portfolio />
         <div id="contact">
