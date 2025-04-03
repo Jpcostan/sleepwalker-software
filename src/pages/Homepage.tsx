@@ -14,6 +14,11 @@ const Homepage: React.FC = () => {
           {/* <button className="px-6 py-3 bg-white text-black rounded-xl font-semibold shadow-md hover:bg-gray-200 transition">
             Learn More
           </button> */}
+          <button onClick={() => document.getElementById('calculator')?.scrollIntoView({ behavior: 'smooth' })}
+            className="px-6 py-3 border border-white text-white rounded-xl font-semibold hover:bg-white hover:text-black transition">
+            Save Time
+          </button>
+
           <button
             onClick={() => {
               const el = document.getElementById('contact');
