@@ -1,4 +1,4 @@
-import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
