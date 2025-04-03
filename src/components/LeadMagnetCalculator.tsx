@@ -35,7 +35,7 @@ export default function LeadMagnetCalculator() {
 
   return (
     <section className="bg-black py-16 px-4 md:px-6">
-      <div className="max-w-4xl mx-auto text-white">
+      <div className="max-w-5xl mx-auto text-white">
         <h1 className="text-3xl font-bold mb-6 text-center">How Much Is Manual Work Costing Your Business?</h1>
 
         <div className="bg-gray-900 p-6 rounded-2xl shadow-xl mb-8">
