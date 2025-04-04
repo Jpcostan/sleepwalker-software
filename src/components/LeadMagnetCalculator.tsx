@@ -36,10 +36,12 @@ export default function LeadMagnetCalculator() {
   return (
     <section id="calculator" className="bg-black py-16 px-4 md:px-6">
       <div className="max-w-5xl mx-auto text-white">
-        <h1 className="text-3xl font-bold mb-6 text-center">How Much Is Manual Work Costing Your Business?</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">What Could You Automate With AI?</h1>
 
         <div className="bg-gray-900 p-6 rounded-2xl shadow-xl mb-8">
-          <p className="mb-6 text-center text-lg">Use this quick calculator to see how much time and money you might be losing to manual tasks each month:</p>
+          <p className="mb-6 text-center text-lg">
+            Use this quick calculator to estimate how much time and money you're losing to manual work — and what AI automation could save you each month.
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
             <div>
@@ -80,7 +82,7 @@ export default function LeadMagnetCalculator() {
         </div>
 
         <form onSubmit={handleSubmit} className="bg-gray-800 p-6 rounded-2xl shadow-xl space-y-4">
-          <p className="font-semibold text-lg text-center">Want a free automation idea for your business?</p>
+          <p className="font-semibold text-lg text-center">Want a free AI automation idea for your business?</p>
 
           <input
             type="text"
