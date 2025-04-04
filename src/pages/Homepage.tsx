@@ -4,6 +4,11 @@ const Homepage: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white px-6 py-12 flex flex-col items-center justify-center">
       <div className="max-w-[90%] sm:max-w-xl md:max-w-2xl mx-auto text-center">
+        <img
+          src="/images/sleepwalker-transparent-logo.png"
+          alt="Sleepwalker Logo"
+          className="mx-auto mb-4 w-32 h-32"
+          />
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 leading-tight text-balance">
           Sleepwalker<br />Software
         </h1>
