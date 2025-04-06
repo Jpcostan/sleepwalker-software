@@ -114,6 +114,15 @@ export default function LeadMagnetCalculator() {
           >
             Send My Ideas
           </button>
+          <div className="max-w-5xl mx-auto px-6">
+          <div className="mt-16 text-center max-w-2xl mx-auto">
+            <h2 className="text-2xl font-bold mb-4">Why Sleepwalker?</h2>
+              <p className="text-gray-400 text-lg">
+                We don’t just build tools — we build time machines. Sleepwalker Software delivers custom AI-powered automations that cut the noise, simplify operations, and help your business move faster without hiring more people.
+              </p>
+        </div>
+          </div>
+         
         </form>
       </div>
     </section>

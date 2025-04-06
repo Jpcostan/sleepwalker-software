@@ -65,6 +65,11 @@ const Contact: React.FC = () => {
         {status === 'error' && (
           <p className="text-red-500 text-sm mt-2">Oops! Something went wrong. Try again later.</p>
         )}
+        <div className="max-w-5xl mx-auto px-6">
+          <p className="text-sm text-gray-500 text-center mt-8">
+            Trusted by small businesses — built for teams that value their time.
+          </p>
+        </div>     
       </form>
     </section>
   );
